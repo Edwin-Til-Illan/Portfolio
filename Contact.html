@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="Contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="My work.html">My work</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                </nav>
+                <h1>e-Portfolio</h1>
+                <img ID="header_img" src="Portfolio-Images/pieuvre.png" alt="No image found">
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <p>
+            Interested in my work ? Have a request or a question ? Get in contact:
+        </p>
+        <form action="Request.html" method="POST">
+            
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="user_name"placeholder="John Doe"><br><br>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail" placeholder="example@abc.com"><br><br>
+            <label for="Subject-select">Subject:</label>
+            <select name="Subject" id="Subject-select">
+                <option value="">--Please choose an option--</option>
+                <option value="Request">Request</option>
+                <option value="Question">Question</option>
+                <option value="Others">Others</option>
+            </select><br><br>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"placeholder="Write your message ..."></textarea><br><br>
+                <input type="button" value="Submit"><br>
+        </form>
+    </main>
+        <footer>
+                <p>Designed by <b>Adrien Chevalier</b> | <i>adrienchevalier06@gmail.com</i> | +1 (438) 929-8319</p>
+        </footer>
+</body>
+</html>

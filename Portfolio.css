@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+}
+
+body{
+    color:#3e3b34; /*Cheveux Chérie #3e3b34*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccae86; /*Peau Chérie*/
+    margin: 0;
+    min-height: 100%;
+}
+header{
+    color:#cdcdcd; /*Couleur du texte "production" dans l'image pieuvre.png*/
+    height: 100px;
+    width: 100%;
+    background-image: url("Portfolio-Images/Background_Pieuvre.png");
+    background-size: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_img{
+    height: 100px;
+}
+
+nav a{
+    color:inherit;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+table, th, td {
+    border: solid;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+th, td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td{
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color:#cdcdcd; /*Couleur du texte "production" dans l'image pieuvre.png*/
+    background-size: 100%;
+    font-size: 0.75em;
+    background-image: url("Portfolio-Images/Background_Pieuvre.png");
+    margin-top: auto;
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p{
+    margin:0;
+}

@@ -1,0 +1,197 @@
+/*REMOVE PX UNITS*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body{
+    color:#3e3b34; /*Cheveux Chérie #3e3b34*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccae86; /*Peau Chérie*/
+    margin: 0;
+    min-height: 100%;
+}
+
+header{
+    color:#cdcdcd; /*Couleur du texte "production" dans l'image pieuvre.png*/
+    width: 100%;
+    height: 5em;
+    background-image: url("Portfolio-Images/Background_Pieuvre.png");
+    background-size: 1em;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#header_img{
+    height: 100%;
+}
+
+nav a,ul{
+    padding-left:1em;
+    color:inherit;
+    list-style-type: none;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    font-size: 2em;
+    height: 100%;
+}
+
+main{
+    padding:6em 1em 0 1em;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2em;
+    margin: 2em 0em 0em 0.5em;
+    
+}
+
+section{
+    padding: 1em;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: #3e3b34;
+    border-width: 1px;
+    text-align: justify;
+    background-color: #d6c3aa;
+    font-size: 1.1em;
+
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    color:#cdcdcd; /*Couleur du texte "production" dans l'image pieuvre.png*/
+    background-size: 100%;
+    font-size: 0.9em;
+    background-image: url("Portfolio-Images/Background_Pieuvre.png");
+    margin-top: 6em;
+    height: 4em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p{
+    margin:0;
+}
+
+#About_me{
+    min-height: 24em; /*Make sure About_me_Img fit in*/
+    text-indent: 1em;
+}
+
+#About_me_Img{
+    max-width: 35%;
+    max-height: 22em;
+    float: left;
+    margin-right:1em;
+}
+
+#Hobbies{
+    min-height: 20em; /*Make sure Hobbies_Img fit in*/
+    max-height: 315px;
+    /* min-width: 100%;
+    display: flex;
+    flex-wrap: wrap; */
+}
+
+#Hobbies_Img{
+    /* padding-bottom: 56.25%; */
+    /* padding-right: 1em; */
+    position: relative;
+}
+
+iframe{
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    padding-right: 1em;
+}
+
+nav{
+    display: inline-block;
+    height: 100%;
+    width: 8em;
+    background: transparent;
+}
+
+.dropbtn{
+    display: block;
+    position: relative;
+    text-align: center;
+    height:100%;
+    width: 75%;
+    border: none;
+    background: transparent;
+    color:inherit;
+    font: inherit;
+    font-weight: bold;
+    padding: 0;
+}
+
+.menu{
+    display: none;
+    background-image:  url("Portfolio-Images/Background_Pieuvre.png");
+    background-size: 1em;
+    text-transform: uppercase;
+    border: solid grey 1px;
+    border-top: none;
+    border-radius: 0em 0em 0.5rem 0.5rem;
+    overflow: hidden;
+    box-shadow: 6px 6px 6px 6px rgba(0,0,0,0.33);
+    width: 100%;
+}
+
+.menu a{
+    
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    text-align: center;
+    padding: 1em;
+    background: transparent;
+    font-weight: bold;
+    border-top: solid grey 1px;
+
+}
+
+.dropbtn:hover{
+    background-color: #595959;
+    color: white;
+}
+.menu a:hover{
+    background-color: #595959;
+    color: white;
+}
+nav:hover .menu{
+    display: block;
+}
+
+nav:hover .dropbtn{
+    border: solid grey 1px;
+    border-bottom: none;
+}
+
+.dropbtn img{
+height: 75%;
+}
