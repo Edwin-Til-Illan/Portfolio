@@ -24,35 +24,76 @@ header{
     background-image: url("Portfolio-Images/Background_Pieuvre.png");
     background-size: 1em;
     position: fixed;
-    text-align: center;
     display: flex;
+    justify-content: center;
+}
+
+#header_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+nav{
+    justify-self: center;
+    color: inherit;
+    height: 100%;
+    min-width: 31em;
+    width: auto;
+    background: transparent;
+    display:flex;
     justify-content: space-between;
 }
 
-
-#header_img{
-    height: 100%;
-}
-
-nav a,ul{
-    padding-left:1em;
-    color:inherit;
-    list-style-type: none;
-}
-
-h1{
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:0;
-    font-size: 2em;
+    width: 7em;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    text-align: center;
+    background: transparent;
+    font-weight: bold;
+    border-top: solid grey 1px;
+
+}
+
+nav a:hover{
+    background-color: #595959;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.6em;
 }
 
 main{
-    padding:6em 1em 0 1em;
+    padding:5em 1em 0 1em;
     display: flex;
     justify-content: center;
+}
+
+header p{
+    position: absolute;
+    top:0;
+    left: 0em;
+    font-style: italic;
+    margin:0;
+    padding: 1em;
+}
+
+h1{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    margin:0;
+    padding: 1rem;
+    font-size: 1.5em;
 }
 
 h2{
@@ -126,72 +167,4 @@ iframe{
     top: 0;
     left: 0;
     padding-right: 1em;
-}
-
-nav{
-    display: inline-block;
-    height: 100%;
-    width: 8em;
-    background: transparent;
-}
-
-.dropbtn{
-    display: block;
-    position: relative;
-    text-align: center;
-    height:100%;
-    width: 75%;
-    border: none;
-    background: transparent;
-    color:inherit;
-    font: inherit;
-    font-weight: bold;
-    padding: 0;
-}
-
-.menu{
-    display: none;
-    background-image:  url("Portfolio-Images/Background_Pieuvre.png");
-    background-size: 1em;
-    text-transform: uppercase;
-    border: solid grey 1px;
-    border-top: none;
-    border-radius: 0em 0em 0.5rem 0.5rem;
-    overflow: hidden;
-    box-shadow: 6px 6px 6px 6px rgba(0,0,0,0.33);
-    width: 100%;
-}
-
-.menu a{
-    
-    text-decoration: none;
-    display: block;
-    padding: 0;
-    text-align: center;
-    padding: 1em;
-    background: transparent;
-    font-weight: bold;
-    border-top: solid grey 1px;
-
-}
-
-.dropbtn:hover{
-    background-color: #595959;
-    color: white;
-}
-.menu a:hover{
-    background-color: #595959;
-    color: white;
-}
-nav:hover .menu{
-    display: block;
-}
-
-nav:hover .dropbtn{
-    border: solid grey 1px;
-    border-bottom: none;
-}
-
-.dropbtn img{
-height: 75%;
 }
